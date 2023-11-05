@@ -31,7 +31,7 @@ const Home = () => {
             <label htmlFor="date">Select your date:</label>
             <div className="input flex">
               <input type="date"/>
-              <GrLocation className="icon" />
+              {/* <GrLocation className="icon" /> */}
             </div>
           </div>
           <div className="priceInput">
