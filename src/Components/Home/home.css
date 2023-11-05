@@ -100,4 +100,57 @@
   font-weight: 500;
   font-size: 13px;
   background: none;
-}/*# sourceMappingURL=home.css.map */
+}
+.home .homeContent .cardDiv .input input::-moz-placeholder {
+  font-size: 13px;
+}
+.home .homeContent .cardDiv .input input::placeholder {
+  font-size: 13px;
+}
+.home .homeContent .cardDiv .input .icon {
+  color: var(--PrimaryColor) !important;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.home .homeContent .cardDiv .input .input[type=range] {
+  background: blue;
+}
+.home .homeContent .cardDiv .searchOptions {
+  width: -moz-max-content;
+  width: max-content;
+  bottom: -0.7rem;
+  position: absolute;
+  background: var(--gradientColor);
+  cursor: pointer;
+  border-radius: 3rem;
+  -moz-column-gap: 0.8rem;
+       column-gap: 0.8rem;
+  left: 50%;
+  justify-content: center;
+  transform: translate(-50%);
+  padding: 5px 1rem;
+}
+.home .homeContent .cardDiv .searchOptions:hover {
+  background: var(--PrimaryColor);
+}
+.home .homeContent .cardDiv .searchOptions .icon {
+  font-size: 18px;
+}
+.home .homeContent .cardDiv .searchOptions span {
+  font-size: 13px;
+}
+.home .homeContent .homeFooterIcons {
+  justify-content: space-between;
+  width: 100%;
+}
+.home .homeContent .homeFooterIcons .icon {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--whiteColor);
+  margin: 0 5px;
+}
+.home .homeContent .homeFooterIcons .icon:hover {
+  color: var(--PrimaryColor);
+}
+
+/* media queries for small devices *//*# sourceMappingURL=home.css.map */

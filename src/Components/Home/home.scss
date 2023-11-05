@@ -104,10 +104,65 @@
                     font-weight: 500;
                     font-size: 13px;
                     background: none;
+                    &::placeholder {
+                        font-size: 13px;
+                    }
+                }
+
+                .icon {
+                    color: var(--PrimaryColor) !important;
+                    font-size: 18px;
+                    margin-left: 10px;
+                }
+
+                .input[type=range] {
+                    background: blue;
+                }
+            }
+
+
+            .searchOptions {
+                width: max-content;
+                bottom: -0.7rem;
+                position: absolute;
+                background: var(--gradientColor);
+                cursor: pointer;
+                border-radius: 3rem;
+                column-gap: 0.8rem;
+                left: 50%;
+                justify-content: center;
+                transform: translate(-50%);
+                padding: 5px 1rem;
+
+                &:hover {
+                    background: var(--PrimaryColor);
+                }
+
+                .icon {
+                    font-size: 18px;
+                }
+
+                span {
+                    font-size: 13px;
                 }
             }
         }
 
+        .homeFooterIcons {
+            justify-content: space-between;
+            width: 100%;
 
+            .icon {
+                font-weight: 600;
+                font-size: 20px;
+                color: var(--whiteColor);
+                margin: 0 5px;
+                &:hover {
+                    color: var(--PrimaryColor);
+                }
+            }
+        }
     }
 }
+
+/* media queries for small devices */
