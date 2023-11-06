@@ -1,1 +1,65 @@
-/*# sourceMappingURL=footer.css.map */
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.footer {
+  position: relative;
+  padding: 2rem, 0;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.footer .videoDiv {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.footer .videoDiv video {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer .videoDiv::after {
+  content: "";
+  position: absolute;
+  background: rgba(10, 84, 107, 0.307);
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+.footer .secContent {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  padding: 2rem initial;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 100;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.footer .secContent .contactDiv {
+  gap: 1rem;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer .secContent .contactDiv .text small {
+  font-weight: 400;
+  font-size: 13px;
+}/*# sourceMappingURL=footer.css.map */
