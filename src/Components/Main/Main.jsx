@@ -2,6 +2,7 @@ import React from 'react'
 import './main.css'
 import img from '../../Assets/img (1).jpg'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
+import { HiOutlineClipboardCheck } from 'react-icons/hi'
 
 
 const Data = [
@@ -126,6 +127,10 @@ const Main = () => {
                   <div className="desc">
                     <p>{description}</p>
                   </div>
+
+                  <button className='btn flex'>
+                    DETAILS <HiOutlineClipboardCheck className="icon"/>
+                  </button>
                 </div>
               </div>
             )

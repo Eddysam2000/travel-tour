@@ -1,1 +1,70 @@
-/*# sourceMappingURL=main.css.map */
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+  --cardHover: rgb(255, 255, 255);
+}
+
+.main {
+  width: 100%;
+}
+.main .secTitle .title {
+  width: -moz-max-content;
+  width: max-content;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 2;
+  color: var(--textColor);
+}
+.main .secTitle .title::after {
+  background: var(--SecondaryColor);
+  position: absolute;
+  width: 120px;
+  content: "";
+  height: 5px;
+  z-index: -1;
+  right: 0;
+  bottom: 5px;
+}
+.main .secContent {
+  justify-content: center;
+  gap: 1.5rem;
+}
+.main .secContent .singleDestination {
+  row-gap: 10px;
+  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+  background: var(--cardBG);
+  align-items: center;
+}
+.main .secContent .singleDestination:hover {
+  box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+  background: var(--cardHover);
+  transition: 0.3s ease;
+}
+.main .secContent .singleDestination .imageDiv {
+  width: 100%;
+  overflow: hidden;
+  height: 180px;
+}
+.main .secContent .singleDestination .imageDiv img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 2s ease;
+}
+.main .secContent .singleDestination .imageDiv:hover img {
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */
