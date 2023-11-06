@@ -62,4 +62,18 @@
 .footer .secContent .contactDiv .text small {
   font-weight: 400;
   font-size: 13px;
+  color: var(--whiteColor);
+}
+.footer .secContent .contactDiv .text h2 {
+  font-size: 1.8rem;
+  color: var(--whiteColor);
+}
+.footer .secContent .contactDiv .inputDiv {
+  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
+}
+.footer .secContent .contactDiv .inputDiv input {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
 }/*# sourceMappingURL=footer.css.map */
