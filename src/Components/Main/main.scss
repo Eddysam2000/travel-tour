@@ -76,6 +76,69 @@
                     }
                 }
             }
+
+
+            .cardInfo {
+                padding: 1rem;
+
+                .destTitle {
+                    color: var(--blackColor);
+                    font-size: 1.25rem;
+                }
+
+                .continent {
+                    gap: 0.5rem;
+
+                    .icon {
+                        font-size: 18px;
+                        color: var(--textColor);
+                    }
+
+                    .name {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: var(--textColor);
+                    }
+                }
+
+                .fees {
+                    justify-content: space-between;
+                    width: 100%;
+                    padding: 1rem;
+                    border-top: 1.5px solid var(--greyText);
+                    border-bottom: 1.5px solid var(--greyText);
+                    margin: 1rem 0;
+
+                    .grade {
+                        color: var(--textColor);
+                        display: flex;
+                        line-height: 20px;
+                        max-width: 100px;
+                        justify-content: center;
+                        align-items: center;
+
+                        small {
+                            background: var(--gradientColor);
+                            color: var(--whiteColor);
+                            padding: 1px 10px;
+                            border-radius: 1rem;
+                            text-align: center;
+                            font-size: 10px;
+                        }
+                    }
+
+                    .price {
+                        font-size: 2rem;
+                        color: var(--blackColor);
+                    }
+                }
+
+                .desc {
+                    font-weight: 500;
+                    font-size: 13.5px;
+                    color: var(--textColor);
+                }
+            }
         }
     }
 }
