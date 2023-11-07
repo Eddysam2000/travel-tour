@@ -76,4 +76,27 @@
 .footer .secContent .contactDiv .inputDiv input {
   width: 100%;
   padding: 0.5rem 0.6rem;
+  border: 1px solid var(--whiteColor);
+  border-radius: 3rem;
+  color: var(--whiteColor);
+  background: transparent;
+  outline: none;
+}
+.footer .secContent .contactDiv .inputDiv input::-moz-placeholder {
+  opacity: 0.5;
+  color: var(--whiteColor);
+}
+.footer .secContent .contactDiv .inputDiv input::placeholder {
+  opacity: 0.5;
+  color: var(--whiteColor);
+}
+.footer .secContent .contactDiv .inputDiv .btn {
+  color: var(--whiteColor);
+  justify-content: center;
+  font-weight: 500;
+  width: 100%;
+  gap: 0.5rem;
+}
+.footer .secContent .contactDiv .inputDiv .btn .icon {
+  font-size: 18px;
 }/*# sourceMappingURL=footer.css.map */
