@@ -23,7 +23,7 @@ const Data = [
     location: 'New Zealand',
     grade: 'CULTURAL RELAX',
     fees: '$700',
-    description: 'The epitome of Romance, Bora Bora is one of the best travel destination in the World. This place is known for its Luxuriousstays and adventrous activities. '
+    description: 'The epitome of Romance, Bora Bora is one of the best travel destination in the World. This place is known for its Luxurious stays and adventrous activities. '
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const Data = [
     destTitle: 'Great Barrier Reef',
     location: 'Australia',
     grade: 'CULTURAL RELAX',
-    fees: '$700',
+    fees: '$900',
     description: "One of the most remarkable Australian natural gifts is the Great Barrier Reef. The hallmark of this place is 'lavish' and 'beauty'. Always interesting to be in this place.  "
   },
   {
@@ -67,7 +67,7 @@ const Data = [
     destTitle: 'Cinque Terre',
     location: 'Italy',
     grade: 'CULTURAL RELAX',
-    fees: '$840',
+    fees: '$1000',
     description: 'The vibrant hues of the houses are its benchmark and explain the beauty of this place. Also, if you are a foodie and love seafood, you will be exhilarated with the choice you are about to get here. Happy exploring great food. '
   },
   {
