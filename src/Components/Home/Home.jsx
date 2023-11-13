@@ -28,7 +28,7 @@ const Home = () => {
             Our Packages
           </span>
           <h1 data-aos="fade-up" className="homeTitle">
-            Search Your Vacations
+            Search Your Vacation
           </h1>
         </div>
 
