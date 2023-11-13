@@ -34,9 +34,9 @@ const Home = () => {
 
         <div data-aos="fade-up" className="cardDiv grid">
           <div className="destinationInput">
-            <label htmlFor="city">Search your destinations:</label>
+            <label htmlFor="city">Search your destination:</label>
             <div className="input flex">
-              <input type="text" placeholder='Enter name here...' />
+              <input type="text" placeholder='Enter name here..' />
               <GrLocation className="icon" />
             </div>
           </div>
@@ -50,7 +50,7 @@ const Home = () => {
           <div className="priceInput">
             <div className="label_total flex">
               <label htmlFor="price">Max price:</label>
-              <h3 className="total">$6000</h3>
+              <h3 className="total">$7000</h3>
             </div>
             <div className="input flex">
               <input type="range" max="6000" min="1000" />
