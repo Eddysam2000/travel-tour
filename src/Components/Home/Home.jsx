@@ -28,7 +28,7 @@ const Home = () => {
             Our Packages
           </span>
           <h1 data-aos="fade-up" className="homeTitle">
-            Search Your Vacation
+            Search Your Vacations
           </h1>
         </div>
 
@@ -50,7 +50,7 @@ const Home = () => {
           <div className="priceInput">
             <div className="label_total flex">
               <label htmlFor="price">Max price:</label>
-              <h3 className="total">$7000</h3>
+              <h3 className="total">$6000</h3>
             </div>
             <div className="input flex">
               <input type="range" max="6000" min="1000" />
