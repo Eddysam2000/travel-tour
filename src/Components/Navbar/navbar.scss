@@ -108,3 +108,46 @@
         }
     }
 }
+
+// media queries================================================================>
+
+@media screen and (min-width:768px) {
+    .toggleNavbar, .closeNavbar {
+        display: none;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+
+        .navBar {
+            .navlists {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+
+                .navItem {
+                    .navLink {
+                        color: var(--textColor);
+                        font-size: 0.9rem;
+                        padding: 0 0.45rem;
+                        font-weight: 500;
+
+                        &:hover {
+                            color: var(--PrimaryColor);
+                        }
+                    }
+                }
+
+                .btn {
+                    margin-left: 1rem;
+
+                    a {
+                        font-weight: 500;
+                        color: var(--whiteColor);
+                    }
+                }
+            }
+        }
+    }
+}
