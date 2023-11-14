@@ -166,3 +166,20 @@
 }
 
 /* media queries for small devices */
+@media screen and (min-width:500px) {
+    .home {
+        .homeContent {
+            .textDiv {
+                .smallText {
+                    font-size: 16px;
+                }
+
+                .homeTitle {
+                    position: relative;
+                    font-size: 2.3rem;
+                    width: max-content;
+                }
+            }
+        }
+    }
+}
